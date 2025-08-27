@@ -62,7 +62,7 @@ Your job is to deeply review this code and provide the following:
 5️⃣ Identification of syntax errors or runtime errors, if present.
 6️⃣ Solutions and recommendations on how to fix each identified issue.
 
-Analyze it like a senior developer reviewing a pull request.
+Analyze it like a software developer reviewing a pull request.
 
 Code:
 ${code}
@@ -145,12 +145,12 @@ ${code}
             options={{
               overviewRulerBorder: false,
               overviewRulerLanes: 0,
-              // Other props as needed
+             
             }}
           />
         </div>
 
-        <div className="right overflow-scroll !p-[10px] bg-white w-[50%] h-[101%]">
+        <div className="right overflow-auto !p-[10px] bg-white w-[50%] h-full">
           <div className="topTab  flex items-center justify-center h-[60px] px-4">
             <div className="btnNormal bg-black min-w-[200px] transition-all hover:bg-zinc-800">
               <p1 className=" flex items-center justify-center font-[700] text-[15px]">
