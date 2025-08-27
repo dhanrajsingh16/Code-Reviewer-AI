@@ -59,6 +59,6 @@ The goal is to help developers write cleaner, safer, and more efficient code wit
 
 4. GitHub Pull Request integration
 
-   Author
+Author
 
-   Dhanraj Singh
+Dhanraj Singh
