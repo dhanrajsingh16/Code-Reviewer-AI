@@ -1,12 +1,63 @@
-# React + Vite
+-> AI-Powered Code Reviewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web application built with React, Tailwind CSS, and the Gemini API that reviews code, detects issues, and suggests improvements.  
+The goal is to help developers write cleaner, safer, and more efficient code with instant AI feedback.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+-> Features
+- Automatic code review using Gemini API  
+- Detects bugs, bad practices, and unused code  
+- Suggests optimizations and refactoring  
+- Simple and responsive UI with Tailwind CSS  
+- Runs locally in the browser  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+-> Tech Stack
+- React  
+- Tailwind CSS  
+- Gemini API  
+- Vite (or Create React App, depending on setup)  
+
+
+
+-> Installation and Setup
+
+1. Clone the repository
+   git clone https://github.com/dhanrajsingh16/Code-Reviewer-AI.git
+   cd Code-Reviewer-AI
+   
+2. Install dependencies
+   npm install
+   
+3. Create a .env file in the project root and add your Gemini API key
+   VITE_GEMINI_API_KEY=your_api_key_here
+   
+4. Run the development server
+   npm run dev
+
+5. Open the app in your browser at
+   http://localhost:5173
+
+
+-> Usage
+
+1. Paste or upload your code into the editor
+
+2. Click "Review Code"
+
+3. Get instant AI-powered feedback and suggestions
+
+-> Roadmap
+
+1. Add multi-language support (Python, JavaScript, Java, etc.)
+
+2. Improve UI and add dark mode
+
+3. Export reviews as PDF or Markdown
+
+4. GitHub Pull Request integration
+
+Author
+Dhanraj Singh
