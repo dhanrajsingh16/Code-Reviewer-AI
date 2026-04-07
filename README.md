@@ -6,7 +6,7 @@ The goal is to help developers write cleaner, safer, and more efficient code wit
 
 
 -> Features
-- Automatic code review using Gemini API  
+- Automatic code review using Gemini API
 - Detects bugs, bad practices, and unused code  
 - Suggests optimizations and refactoring  
 - Simple and responsive UI with Tailwind CSS  
